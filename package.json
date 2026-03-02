@@ -1,0 +1,11 @@
+{
+  "name": "mitienda-cloudflare-workers",
+  "private": true,
+  "scripts": {
+    "deploy:cdn": "cd cdn && wrangler deploy",
+    "dev:cdn":    "cd cdn && wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3"
+  }
+}

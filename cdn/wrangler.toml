@@ -1,0 +1,14 @@
+name               = "mitienda-cdn"
+main               = "worker.js"
+compatibility_date = "2025-01-01"
+
+# R2 bucket binding — must match the bucket name in Cloudflare Dashboard
+[[r2_buckets]]
+binding     = "R2_BUCKET"
+bucket_name = "mitienda-images"
+
+# Route: handle all requests to cdn.mitienda.pe
+# Requires the zone "mitienda.pe" to be managed by Cloudflare
+[[routes]]
+pattern   = "cdn.mitienda.pe/*"
+zone_name = "mitienda.pe"
