@@ -8,9 +8,6 @@
  *   https://cdn.mitienda.pe/tienda_000001/{hash}.jpg          → original
  *   https://cdn.mitienda.pe/tienda_000001/{hash}.jpg?w=320    → resized to 320px wide
  *   https://cdn.mitienda.pe/tienda_000001/{hash}.jpg?w=720&q=80&f=webp
- *
- * Deploy:
- *   cd cdn && npx wrangler deploy
  */
 
 export default {
