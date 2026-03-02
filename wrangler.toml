@@ -10,5 +10,5 @@ bucket_name = "mitiendape"
 # Route: handle all requests to cdn.mitienda.pe
 # Requires the zone "mitienda.pe" to be managed by Cloudflare
 [[routes]]
-pattern   = "cdn.mitienda.pe/*"
-zone_name = "mitienda.pe"
+pattern   = "cdn.tiendabox.co/*"
+zone_name = "tiendabox.co"
